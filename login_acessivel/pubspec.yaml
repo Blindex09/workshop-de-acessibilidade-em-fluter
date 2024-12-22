@@ -1,0 +1,35 @@
+name: login_acessivel
+description: "A new Flutter project for accessible login and testing."
+
+# Define se o projeto será publicado. Atualmente marcado como privado.
+publish_to: 'none'
+
+# Versão do aplicativo
+version: 1.0.0+1
+
+# Ambiente de SDK
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+# Dependências principais do projeto
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Pacotes úteis para acessibilidade e funcionalidades
+  intl: ^0.18.0          # Suporte para internacionalização (se necessário)
+  provider: ^6.0.5       # Gerenciamento de estado para widgets dinâmicos
+  equatable: ^2.0.7      # Facilita comparações em testes e modelos de dados
+
+# Dependências para desenvolvimento (testes e boas práticas)
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0  # Padrões de lint recomendados para Flutter
+  integration_test:
+    sdk: flutter         # Para testes de integração automatizados
+
+# Configurações específicas do Flutter
+flutter:
+  uses-material-design: true
